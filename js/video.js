@@ -37,7 +37,7 @@ document.querySelector("#skip").addEventListener("click",function(){
 document.querySelector("#mute").addEventListener("click",function(){
 	if (mutebol == false){
 		video.muted = true;
-		document.querySelector("#mute").innerHTML = "unmute";
+		document.querySelector("#mute").innerHTML = "Unmute";
 		mutebol = true;
 	}
 	else{
