@@ -42,7 +42,7 @@ document.querySelector("#mute").addEventListener("click",function(){
 	}
 	else{
 		video.muted = false;
-		document.querySelector("#mute").innerHTML = "mute";
+		document.querySelector("#mute").innerHTML = "Mute";
 		mutebol = false;
 	}
 });
